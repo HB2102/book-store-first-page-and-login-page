@@ -1,0 +1,87 @@
+@font-face {
+    font-family: iran;
+    src: url(../font/iran.ttf);
+}
+
+
+.offer-secton{
+    padding: 20px;
+    font-size: 1em;
+}
+
+.offer-box{
+    background-color: white;
+    box-shadow: 2px 2px 15px black;
+    border-radius: 10px; 
+    margin: 25px 10px 25px 20px;
+    text-align: center;
+}
+
+.offertitle{
+    background-color: #e74c3c;
+    padding: 10px 15px;
+    border-bottom-left-radius : 10px;
+    border-bottom-right-radius : 10px;
+    display: inline-block;
+}
+
+
+.offer-img{
+    padding: 20px;
+}
+
+.offer-img img{
+    width: 100%;
+}
+
+
+.offer-imformation{
+    padding: 20px 30px;
+}
+
+.offer-imformation-sub{
+    margin-bottom: 5%;
+}
+
+.price-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actual-price{
+    padding: 0px 10px;
+}
+
+.discount{
+    background-color: #e74c3c;
+    padding: 5px 10px 0px 10px;
+    border-radius: 9999px;
+}
+
+.offer-title{
+    font-size: 2.3rem;
+    font-weight: bold;
+    padding: 10% 10px 0px 10px;
+}
+
+.countdown{
+    padding: 30px 0px;
+    font-size: 3rem;
+}
+
+
+.offer-text{
+    font-size: 0.8rem;
+    color: #8e9396;
+}
+
+.banner{
+    align-items: center;
+    justify-content: center;
+    padding: 25px 45px;
+}
+
+.banner img{
+    width: 100%;
+}

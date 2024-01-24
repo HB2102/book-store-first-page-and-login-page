@@ -1,0 +1,154 @@
+@font-face {
+    font-family: iran;
+    src: url(../font/iran.ttf);
+}
+
+
+.product-section{
+    font-size: 1em;
+    padding: 20px 10px;
+}
+
+
+.cart{
+    background-color: white;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.cartimg{
+    align-self: center;
+    position: relative;
+}
+
+.cartimg img{
+    width: 80%;
+}
+
+.cartimg span{
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background-color: #e74c3c;
+    padding: 4px 8px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px #c0392b;
+    transition: 0.2s;
+}
+.cartimg span:hover{
+    background-color: black;
+    box-shadow: 2px 2px 15px #2c3e50;
+}
+
+.rating{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.rating i{
+    color: gold;
+    text-shadow:1px 1px 10px gold;
+}
+
+.carttitle{
+    font-size: 1.3rem;
+    margin: 15px 10px;
+    font-weight: bold;
+    transition: 0.2s ease-in;
+}
+.carttitle:hover{
+    font-size: 1.4rem;
+}
+
+
+
+.cartbottons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+
+.price{
+    font-size: 1rem;
+    margin: 15px 10px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+.price:hover{
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+.bleft{
+    display: flex;
+}
+
+.bottonbig{
+    display: flex;
+    margin-left: 5px;
+    justify-content: space-between;
+    background-color: #2f394dc2;
+    align-items: center;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 1000px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    transition: 0.3s  ;
+}
+.bottonbig:hover{
+    width: 120px;
+}
+
+
+#fav:hover{
+    background-color: rgba(255, 0, 0, 0.87);
+}
+#fav:hover a{
+    font-size: 1rem;
+    justify-self: center;
+    align-self: center;
+    display: block;
+    color: #dfe4ea;
+}
+#fav:hover i{
+    font-size: 1.3rem;
+    color: #dfe4ea;
+}
+
+
+#addcart:hover{
+    background-color: blue;
+}
+#addcart:hover a{
+    font-size: 1rem;
+    justify-self: center;
+    align-self: center;
+    display: block;
+    color: #dfe4ea;
+}
+#addcart:hover i{
+    font-size: 1.3rem;
+    color: #dfe4ea;
+}
+
+
+
+.bottonbig a{
+    display: none;
+}
+
+
+
+.bottonbig i{
+    font-size: 1.7rem;
+}
+

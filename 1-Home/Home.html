@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/slider.css" />
+    <link rel="stylesheet" href="../css/products.css" />
+    <link rel="stylesheet" href="../css/flexboxgrid.css" />
+    <link rel="stylesheet" href="../css/specialoffer.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navr">
+          <a href=""><i class="fa-solid fa-house"></i></a>
+          <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+          <a href=""><i class="fa-solid fa-user"></i></a>
+          <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+        <div class="navl">
+          <div class="reglogin">
+            <i class="fa-solid fa-user"></i>
+            <a target="_blank" href="../2-Login/Login.html">ثبت نام / ورود</a>
+          </div>
+        </div>
+      </nav>
+
+      <section class="slider">
+        <div class="slideshow">
+          <div class="photo selected" id="s1">
+            <img src="../img/book slider1.jpg" alt="" />
+          </div>
+          <div class="photo" id="s2">
+            <img src="../img/book slider2.jpg" alt="" />
+          </div>
+          <div class="photo" id="s3">
+            <img src="../img/book slider3.jpg" alt="" />
+          </div>
+        </div>
+        <div class="slideicons">
+          <i onclick="selelctslide('s1' , 1)" class="fa-solid fa-circle"></i>
+          <i onclick="selelctslide('s2' , 2)" class="fa-solid fa-circle"></i>
+          <i onclick="selelctslide('s3' , 3)" class="fa-solid fa-circle"></i>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <secton class="product-section">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="cart">
+              <div class="cartimg">
+                <img src="../img/the book.jpg" alt="" />
+                <span>پیشنهاد ویژه</span>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="carttitle">اسم اسم اسم</div>
+              <div class="cartbottons">
+                <div class="bright">
+                  <p class="price">600 هزار تومان</p>
+                </div>
+                <div class="bleft">
+                  <div class="bottonbig" id="fav">
+                    <a href="">علاقه مندی</a>
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                  <div class="bottonbig" id="addcart">
+                    <a href="">افزودن به سبد خرید</a>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="cart">
+              <div class="cartimg">
+                <img src="../img/the book.jpg" alt="" />
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="carttitle">اسم اسم اسم</div>
+              <div class="cartbottons">
+                <div class="bright">
+                  <p class="price">900 هزار تومان</p>
+                </div>
+                <div class="bleft">
+                  <div class="bottonbig" id="fav">
+                    <a href="">علاقه مندی</a>
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                  <div class="bottonbig" id="addcart">
+                    <a href="">افزودن به سبد خرید</a>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="cart">
+              <div class="cartimg">
+                <img src="../img/the book.jpg" alt="" />
+                <span>پیشنهاد ویژه</span>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="carttitle">اسم اسم اسم</div>
+              <div class="cartbottons">
+                <div class="bright">
+                  <p class="price">400 هزار تومان</p>
+                </div>
+                <div class="bleft">
+                  <div class="bottonbig" id="fav">
+                    <a href="">علاقه مندی</a>
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                  <div class="bottonbig" id="addcart">
+                    <a href="">افزودن به سبد خرید</a>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="cart">
+              <div class="cartimg">
+                <img src="../img/the book.jpg" alt="" />
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="carttitle">اسم اسم اسم</div>
+              <div class="cartbottons">
+                <div class="bright">
+                  <p class="price">200 هزار تومان</p>
+                </div>
+                <div class="bleft">
+                  <div class="bottonbig" id="fav">
+                    <a href="">علاقه مندی</a>
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                  <div class="bottonbig" id="addcart">
+                    <a href="">افزودن به سبد خرید</a>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </secton>
+
+      <section class="offer-secton">
+        <div class="row">
+          <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+            <div class="offer-box">
+              <span class="offertitle">پیشنهاد شگفت انگیز</span>
+              <div class="offer-body">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="offer-img">
+                      <img src="../img/the book.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <div class="offer-imformation">
+                      <div class="offer-imformation-sub">
+                        <div class="price-row">
+                          <div class="actual-price">1 میلیون تومان</div>
+                          <div class="discount">60% تخفیف</div>
+                        </div>
+                        <div class="offer-title">اسم اسم اسم</div>
+                      </div>
+                      <hr />
+                      <div class="countdown">
+                        <span id="seconds">10</span> :
+                        <span id="minutes">30</span> :
+                        <span id="hours">20</span>
+                      </div>
+                      <div class="offer-text">
+                        زمان باقیمانده تا پایان سفارش
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            <div class="banner">
+              <img src="../img/friday.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="rfooter">
+            <div class="rfooter-title">درباره ما</div>
+            <div class="rdescription">
+              چرت و پرت چرت و پرتچرت و پرتچرت و پرتچرت و پرتچرت و پرتچرت و
+              پرتچرت و پرتچرت و پرتچرت و پرتچرت و پرتچرت و پرتچرت و پرتچرت و
+              پرتچرت و پرتچرت و پرتچرت و پرتچرت و پرتچرت و پرتچرت و پرتچرت و
+              پرتچرت و پرتچرت و پرتچرت و پرتچرت و پرتچرت و پرتچرت و پرتچرت و
+              پرتچرت و پرتچرت و پرتچرت و پرتچرت و پرتچرت و پرتچرت و پرتچرت و
+              پرتچرت و پرتچرت و پرتچرت و پرتچرت و پرتچرت و پرتچرت و پرتچرت و
+              پرتچرت و پرتچرت و پرتچرت و پرتچرت و پرتچرت و پرتچرت و پرتچرت و
+              پرتچرت و پرتچرت و پرتچرت و پرت
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="lfooter">
+            <div class="lfooter-title">
+              ما را در شبکه های اجتماعی دنبال کنید:
+            </div>
+            <div class="ldescription">
+              <a href=""><i class="fa-brands fa-telegram"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="endpage">کلیه حقوق محفوظ میباشد. 2023 ©</div>
+    </footer>
+
+    <script src="../JavaScript/main.js"></script>
+    <script src="../JavaScript/countsown.js"></script>
+  </body>
+</html>

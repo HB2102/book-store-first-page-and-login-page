@@ -1,0 +1,128 @@
+@font-face {
+    font-family: iran;
+    src: url(../font/iran.ttf);
+}
+
+
+.login-container{
+    background: radial-gradient(circle farthest-corner at 10% 20%, rgba(84,87,101,255) 0% ,rgba(31,45,60,255) 80%);
+}
+
+#d1 , #d2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box{
+    width: 80%;
+    font-size: 1.2rem;
+    box-shadow: 2px 2px 20px #95a5a6;
+    border-radius: 30px;
+    padding: 40px;
+    background-color: #2e2e43;
+    color: #e6e8ee;
+}
+
+.input{
+    margin: 20px 0px;
+    line-height: 2rem;
+}
+
+.input label{
+    font-size: 1.5rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input input{
+    padding: 8px 20px 2px 0px;
+    border: 4px solid #e6e8ee;
+    border-radius: 9999px;
+    background-color: #3c3c57;
+    font-size: 1.8rem;
+    width: 100%;
+    box-shadow: 2px 2px 10px #79545d;
+    transition: 0.2s;
+    outline: none;
+}
+.input input:hover{
+    background-color: #525277;
+    box-shadow: 3px 3px 10px #8d636e; 
+}
+.input input:focus{
+    box-shadow: 3px 3px 10px #f95b47;
+    border: 5px solid #f95b47;
+    background-color: #e6e8ee;
+    color: black;
+    
+}
+
+
+.forgot{  
+    margin: 40px 0px;
+}
+.forgot a{
+    color: #f95b47;
+    margin: 0px 5px;
+    font-size: 1.8rem;
+    transition: 0.2s;
+}
+.forgot a:hover{
+    text-shadow: 1px 1px 10px #f95b47;
+}
+
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.submit input{
+    border: 2px solid #7f8c8d;
+    border-radius: 999px;
+    padding: 5px 35px;
+    font-size: 2.7rem;
+    color: #e6e8ee;
+    background-color: #f95b47;
+    transition: 0.2s;
+    border: none;
+}
+.submit input:hover{
+    font-size: 2.8rem;
+    box-shadow: 3px 3px 10px #f95b47;
+}
+
+hr{
+    margin: 10px 30px;
+}
+
+.icons{
+    display: flex;
+    margin: 40px 30px 0px 30px;
+    justify-content: space-around;
+}
+
+.icons i{
+    font-size: 4rem;
+    color: #be4535;
+    transition: 0.2s;
+}
+.icons i:hover{
+    font-size: 4.1rem;
+    color: #f95b47;
+}
+
+.loginimg{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginimg img{
+    width: 100%;
+}

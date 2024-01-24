@@ -1,0 +1,49 @@
+@font-face {
+    font-family: iran;
+    src: url(../font/iran.ttf);
+}
+
+
+
+.slider{
+    position: relative;
+}
+
+
+
+
+.slideshow div img{
+    width: 100%;
+}
+
+
+.photo{
+    display: none;
+}
+
+
+.selected{
+    display: block;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+
+
+.slideicons{
+    position: absolute;
+    bottom: 25px;
+    left: 40px;
+    z-index: 1;
+}
+
+.slideicons i{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.4);
+    margin-left: 5px;
+    cursor: pointer;
+}
+.slideicons i:hover{
+    color: black;
+}
+
